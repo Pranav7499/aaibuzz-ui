@@ -34,10 +34,31 @@
 
 // export default App
 
-import CloudDevOpsService from "./pages/Index";
+// import CloudDevOpsService from "./pages/Index";
 
-function App() {
-  return <CloudDevOpsService />;
-}
+// function App() {
+//   return <CloudDevOpsService />;
+// }
+
+// export default App;
+// import { CloudDevOps } from "./pages/CloudDevOps";
+
+// const App = () => {
+//   return (
+//     <div className="w-full overflow-x-hidden">
+//       <CloudDevOps />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import { CloudDevOpsPage } from "./components/cloud-devops";
+
+const App = () => {
+  return <CloudDevOpsPage />;
+};
 
 export default App;
+
+
