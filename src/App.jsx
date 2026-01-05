@@ -53,12 +53,55 @@
 
 // export default App;
 
-import { CloudDevOpsPage } from "./components/cloud-devops";
+// import { CloudDevOpsPage } from "./components/cloud-devops";
 
-const App = () => {
-  return <CloudDevOpsPage />;
+// const App = () => {
+//   return <CloudDevOpsPage />;
+// };
+
+// export default App;
+
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { CloudDevOpsPage } from "./components/cloud-devops";
+// import { DataAnalyticsPage } from "./components/data-analytics";
+
+// export const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/cloud-devops" element={<CloudDevOpsPage />} />
+//         <Route
+//           path="/data-engineering-analytics"
+//           element={<DataAnalyticsPage />}
+//         />
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// };
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import CloudDevOpsPage from "./components/cloud-devops/CloudDevOpsPage";
+
+import { DataAnalyticsPage } from "./components/data-analytics/DataAnalyticsPage";
+
+export const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/cloud-devops" element={<CloudDevOpsPage />} />
+        <Route
+          path="/data-engineering-analytics"
+          element={<DataAnalyticsPage />}
+        />
+      </Routes>
+    </Router>
+  );
 };
 
-export default App;
+
+
+
+
 
 
