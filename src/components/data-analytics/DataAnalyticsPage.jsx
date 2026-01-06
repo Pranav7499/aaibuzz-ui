@@ -1,3 +1,6 @@
+
+
+import React from "react";
 import { Hero } from "./Hero";
 import { Expertise } from "./Expertise";
 import { Experience } from "./Experience";
@@ -18,6 +21,10 @@ import { WhyChooseUs } from "./WhyChooseUs";
 import { OrangeBanner } from "./OrangeBanner";
 import { CTA } from "./CTA";
 
+/**
+ * Data Engineering & Analytics Page
+ * Arrow function + Named export (NO default export)
+ */
 export const DataAnalyticsPage = () => {
   return (
     <>
@@ -44,5 +51,3 @@ export const DataAnalyticsPage = () => {
     </>
   );
 };
-
-

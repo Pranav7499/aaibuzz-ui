@@ -1,20 +1,4 @@
-// import { Link } from "react-router-dom";
 
-// export const CTA = () => {
-//   return (
-//     <div className="text-center mt-16 mb-20">
-//       <Link
-//         to="/contact-us-software-development-company-in-india"
-//         className="inline-block px-8 py-3 border-2 border-blue-600
-//         text-blue-600 font-semibold rounded-md
-//         transition hover:bg-blue-600 hover:text-white
-//         hover:-translate-y-1 hover:shadow-lg"
-//       >
-//         Click here to know more about our Cloud Services
-//       </Link>
-//     </div>
-//   );
-// };
 
 import { Link } from "react-router-dom";
 
